@@ -53,6 +53,17 @@
         border-radius: 3px;
         cursor: pointer;
     }
+
+    .form a.button {
+        display: inline-block;
+        background-color: #333333;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
 </style>
 
 
@@ -70,6 +81,7 @@
 
                 <input type="submit" value="Save">
             </form>
+            <a href="main.php" class="button">Go to Main Page</a>
         </div>
     </div>
 </body>
